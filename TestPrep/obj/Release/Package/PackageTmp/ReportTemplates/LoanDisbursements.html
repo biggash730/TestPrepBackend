@@ -1,0 +1,43 @@
+﻿<body style="border: 0px solid #7c7c7c; padding: 0px; height: auto">
+<div style="font-size: 12px;">
+    <div class="text-right">
+        <img src="[COMPANYLOGO]" alt="Company Logo" style="height: 50px; margin: 0;" />
+        <p style="font-size: 20px; margin: 0;">
+            <b>[COMPANYNAME]</b>
+        </p>
+        <p style="font-size: 14px; margin: 0; padding-bottom: 0">[COMPANYADDRESS]</p>
+        <br />
+    </div>
+    <div class="text-center" style="background-color: #eeeeee; padding-top: 5px; padding-bottom: 5px">
+        <p style="font-size: 20px; margin: 0"><b>LOAN DISBURSEMENTS REPORT</b>
+        </p>
+        <p style="font-size: 16px; margin: 0">
+            <b>[STARTDATE] - [ENDDATE]</b>
+        </p>
+    </div>
+    <br />
+    <div>
+        <table class="table table-bordered" >
+            <thead>
+                <tr>
+                    <th scope="col" class="num_col_1">#</th>
+                    <th scope="col">DATE</th>
+                    <th scope="col">NAME</th>
+                    <th scope="col">AGE</th>
+                    <th scope="col">GENDER</th>
+                    <th scope="col">AMOUNT(GHS)</th>
+                    <th scope="col">FEE(GHS)</th>
+                    <th scope="col">STATUS</th>
+                </tr>
+            </thead>
+            <tbody>
+                [LIST]
+            <tr>
+                    <td colspan="7" style="border-bottom-style: double; font-weight: bold;">Total Amount</td>
+                    <td class="text-right" style="border-bottom-style: double; font-weight: bold;"> [TOTALAMOUNT]</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</div>
+</body>

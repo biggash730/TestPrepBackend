@@ -1,0 +1,16 @@
+﻿{
+  "NumberOfQuestions": 30,
+  "ServiceTimer": 5,
+  "GracePeriod": 30,
+  "BasePaymentFee": 10,
+  "PasswordPolicies": {
+    "MinimumLength": 6, //20,
+    "RequireNonLetterOrDigit": true,
+    "RequireDigit": false,
+    "RequireLowercase": true,
+    "RequireUppercase": false,
+    "SpecialCharacters": "", //"?!@#$%^&*",
+    "PreviousPasswordCount": 5
+  },
+  "RandomCharacters": "?!@#$%^&*"
+}
